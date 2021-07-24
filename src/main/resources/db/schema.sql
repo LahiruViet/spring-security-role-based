@@ -1,7 +1,7 @@
 
-drop table T_USER_ROLE;
-drop table T_ROLE;
-drop table T_USER;
+drop table if exists T_USER_ROLE;
+drop table if exists T_ROLE;
+drop table if exists T_USER;
 
 create table if not exists T_USER (
   ID bigint(10) unsigned not null auto_increment,
